@@ -1,42 +1,114 @@
 [
   {
     "id": 1,
-    "title": "에코 머그컵",
-    "price": 9900,
-    "image": "imgs/img_01.jpg",
-    "category": "kitchen",
-    "desc": "친환경 소재로 만든 머그컵으로 따뜻한 음료를 더욱 오래 유지합니다."
+    "title": "에떼르노 비타-C세럼",
+    "volume": "30ml",
+    "price": 28000,
+    "image": "/imgs/img_01.jpg"
   },
   {
     "id": 2,
-    "title": "미니 선풍기",
-    "price": 14900,
-    "image": "imgs/img_02.jpg",
-    "category": "home",
-    "desc": "휴대용으로 어디서든 시원하게 사용할 수 있는 미니 선풍기입니다."
+    "title": "에떼르노 모이스처 세럼",
+    "volume": "30ml",
+    "price": 26000,
+    "image": "/imgs/img_02.jpg"
   },
   {
     "id": 3,
-    "title": "USB 케이블 C타입",
-    "price": 5900,
-    "image": "imgs/img_03.jpg",
-    "category": "digital",
-    "desc": "빠른 충전과 안정적인 데이터 전송을 지원하는 고속 USB-C 케이블."
+    "title": "에떼르노 콜라겐 세럼",
+    "volume": "30ml",
+    "price": 28000,
+    "image": "/imgs/img_03.jpg"
   },
   {
     "id": 4,
-    "title": "LED 탁상 스탠드",
-    "price": 19900,
-    "image": "imgs/img_04.jpg",
-    "category": "home",
-    "desc": "눈이 편안한 조명, 밝기 조절 가능한 모던 디자인의 LED 스탠드."
+    "title": "에떼르노 EGF 세럼",
+    "volume": "100ml",
+    "price": 96000,
+    "image": "/imgs/img_04.jpg"
   },
   {
     "id": 5,
-    "title": "무선 블루투스 이어폰",
-    "price": 29900,
-    "image": "imgs/img_05.jpg",
-    "category": "digital",
-    "desc": "고음질 사운드와 안정적인 연결, 장시간 착용에도 편안한 무선 이어폰."
+    "title": "에떼르노 콜라겐 세럼",
+    "volume": "100ml",
+    "price": 80000,
+    "image": "/imgs/img_05.jpg"
+  },
+  {
+    "id": 6,
+    "title": "에떼르노 모이스처 세럼",
+    "volume": "100ml",
+    "price": 70000,
+    "image": "/imgs/img_06.jpg"
+  },
+  {
+    "id": 7,
+    "title": "에떼르노 비타-C세럼",
+    "volume": "100ml",
+    "price": 80000,
+    "image": "/imgs/img_07.jpg"
+  },
+  {
+    "id": 8,
+    "title": "에떼르노 비타 앰플 마스크",
+    "volume": "10매",
+    "price": 20000,
+    "image": "/imgs/img_08.jpg"
+  },
+  {
+    "id": 9,
+    "title": "그리앙스 크림",
+    "volume": "50g",
+    "price": 25000,
+    "image": "/imgs/img_09.jpg"
+  },
+  {
+    "id": 10,
+    "title": "그리앙스 밀크로션",
+    "volume": "100ml",
+    "price": 23000,
+    "image": "/imgs/img_10.jpg"
+  },
+  {
+    "id": 11,
+    "title": "그리앙스 에센스",
+    "volume": "40ml",
+    "price": 23000,
+    "image": "/imgs/img_11.jpg"
+  },
+  {
+    "id": 12,
+    "title": "그리앙스 토너",
+    "volume": "100ml",
+    "price": 21000,
+    "image": "/imgs/img_12.jpg"
+  },
+  {
+    "id": 13,
+    "title": "로코블란코 수분크림",
+    "volume": "50g",
+    "price": 26800,
+    "image": "/imgs/img_13.jpg"
+  },
+  {
+    "id": 14,
+    "title": "로코블란코 더블유 크림",
+    "volume": "50g",
+    "price": 32000,
+    "image": "/imgs/img_14.jpg"
+  },
+  {
+    "id": 15,
+    "title": "로코블란코 화이트닝 세럼",
+    "volume": "30ml",
+    "price": 32000,
+    "image": "/imgs/img_15.jpg"
+  },
+  {
+    "id": 16,
+    "title": "로코블란코 마스크 시트",
+    "volume": "10매",
+    "price": 20000,
+    "image": "/imgs/img_16.jpg"
   }
 ]
