@@ -1,0 +1,67 @@
+@use '../assets/scss/var' as v;
+@use '../assets/scss/mixin' as m;
+
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Jua&family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+KR:wght@700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.2);
+    backdrop-filter: saturate(180%) blur(8px);
+    padding: 10px 50px;
+    // 뒷 배경 채도 증가, 흐림 효과
+    font-family: "Unna", serif;
+
+    .logo{
+        font-family: "Unna", serif;
+        font-weight: bold;
+        font-size: clamp(16px, 3vw, 30px);
+        letter-spacing: 0.2px;
+        color: #fff;
+        padding: 5px;
+        line-height: 42px;
+        cursor: pointer;
+    }
+
+    .menuList{
+        @include m.flex-center;
+        gap: v.$gap;
+
+        @include m.respond(v.$bp-md){
+            margin-right: 5px;
+        }
+
+        a{
+            position: relative;
+            padding: 6px 10px;
+            font-weight: 700;
+            color: #fff;
+            transition: all 0.3s linear;
+            font-size: 18px;
+
+            &:hover{
+            background-color: rgba(0,0,0,0.25);
+            transform: translateX(-1px);
+            }
+
+            &.active{
+            color: #fff;
+            
+            &::after{
+                    content: '';
+                    position: absolute;
+                    left: 10px; right: 10px;
+                    bottom: 0px;
+                    height: 2px;
+                    border-radius: 2px;
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+}

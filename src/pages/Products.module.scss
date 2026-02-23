@@ -1,0 +1,202 @@
+@use "../assets/scss/mixin" as m;
+@use "../assets/scss/var" as v;
+
+body {
+  background-color: #efe9dd;
+  //   padding-bottom: 60px;
+}
+
+.products {
+  width: 100%;
+  margin-top: 50px;
+  background-color: #efe9dd;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //   justify-content: center;
+  //   padding-bottom: 60px;
+
+  h2 {
+    font-size: 68px;
+    margin-bottom: 60px;
+    color: #8e765c;
+    font-family: "Unna", serif;
+    margin-block-start: 0;
+  }
+
+  .contentBox {
+    width: 75%;
+    // height: 75%;
+    // background-color: aqua;
+    margin-bottom: 100px;
+
+    .gridBox {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 3rem;
+      // margin-bottom: 30px;
+
+      .card {
+        border-radius: 12px;
+        background-color: #fff;
+        text-align: center;
+        padding: 25px;
+        box-sizing: border-box;
+        box-shadow: v.$shadow-soft;
+
+        .imgs {
+          width: 100%;
+          object-fit: cover;
+          margin-top: -12px;
+        }
+
+        .title {
+          color: #8e765c;
+          font-size: 22px;
+          font-weight: 700;
+          margin-block-start: 0;
+          margin-block-end: 0;
+        }
+
+        .volume {
+          font-size: 16px;
+          margin-block-start: 10px;
+          margin-block-end: 10px;
+          color: #999;
+        }
+
+        .price {
+          font-size: 20px;
+          font-weight: 600;
+          color: #8e765c;
+        }
+
+        .btns {
+          width: 100%;
+          height: 50px;
+          // background-color: #8e765c;
+          margin-bottom: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .addBtn {
+          background-color: #8e765c;
+          border: none;
+          width: 130px;
+          height: 35px;
+          border-radius: 3px;
+          color: #fff;
+          cursor: pointer;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 33px;
+        }
+
+        .btnOutBox {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 0.5rem;
+          width: 100%;
+          height: 40px;
+
+          .plus,
+          .minus {
+            width: 35px;
+            height: 35px;
+            background-color: #8e765c;
+            border: none;
+            font-size: 18px;
+            font-weight: 500;
+            color: #fff;
+            border-radius: 3px;
+            line-height: 33px;
+          }
+
+          .qty {
+            width: 60px;
+            height: 35px;
+            line-height: 33px;
+            border: 1.5px solid #8e765c;
+            border-radius: 3px;
+          }
+        }
+      }
+    }
+    .pagination {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 50px;
+    }
+
+    .pageBtn {
+      width: 40px;
+      height: 40px;
+      border: 1px solid #ddd;
+      background: #fff;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    /* 선택된 버튼 */
+    .pageBtn.active {
+      background: #8e765c;
+      color: #fff;
+      border-color: #8e765c;
+    }
+  }
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.products h2 {
+  opacity: 0;
+  animation: fadeUp 1s ease forwards;
+}
+
+.gridBox .card {
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards;
+}
+
+// 카드 순차적으로 delay 적용
+.gridBox .card:nth-child(1) {
+  animation-delay: 0.4s;
+}
+.gridBox .card:nth-child(2) {
+  animation-delay: 0.6s;
+}
+.gridBox .card:nth-child(3) {
+  animation-delay: 0.8s;
+}
+.gridBox .card:nth-child(4) {
+  animation-delay: 1s;
+}
+.gridBox .card:nth-child(5) {
+  animation-delay: 1.2s;
+}
+.gridBox .card:nth-child(6) {
+  animation-delay: 1.4s;
+}
+.gridBox .card:nth-child(7) {
+  animation-delay: 1.6s;
+}
+.gridBox .card:nth-child(8) {
+  animation-delay: 1.8s;
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "title": "에떼르노 비타-C세럼",
+    "volume": "30ml",
+    "price": 28000,
+    "image": "/imgs/img_01.jpg"
+  },
+  {
+    "id": 2,
+    "title": "에떼르노 모이스처 세럼",
+    "volume": "30ml",
+    "price": 26000,
+    "image": "/imgs/img_02.jpg"
+  },
+  {
+    "id": 3,
+    "title": "에떼르노 콜라겐 세럼",
+    "volume": "30ml",
+    "price": 28000,
+    "image": "/imgs/img_03.jpg"
+  },
+  {
+    "id": 4,
+    "title": "에떼르노 EGF 세럼",
+    "volume": "100ml",
+    "price": 96000,
+    "image": "/imgs/img_04.jpg"
+  },
+  {
+    "id": 5,
+    "title": "에떼르노 콜라겐 세럼",
+    "volume": "100ml",
+    "price": 80000,
+    "image": "/imgs/img_05.jpg"
+  },
+  {
+    "id": 6,
+    "title": "에떼르노 모이스처 세럼",
+    "volume": "100ml",
+    "price": 70000,
+    "image": "/imgs/img_06.jpg"
+  },
+  {
+    "id": 7,
+    "title": "에떼르노 비타-C세럼",
+    "volume": "100ml",
+    "price": 80000,
+    "image": "/imgs/img_07.jpg"
+  },
+  {
+    "id": 8,
+    "title": "에떼르노 비타 앰플 마스크",
+    "volume": "10매",
+    "price": 20000,
+    "image": "/imgs/img_08.jpg"
+  },
+  {
+    "id": 9,
+    "title": "그리앙스 크림",
+    "volume": "50g",
+    "price": 25000,
+    "image": "/imgs/img_09.jpg"
+  },
+  {
+    "id": 10,
+    "title": "그리앙스 밀크로션",
+    "volume": "100ml",
+    "price": 23000,
+    "image": "/imgs/img_10.jpg"
+  },
+  {
+    "id": 11,
+    "title": "그리앙스 에센스",
+    "volume": "40ml",
+    "price": 23000,
+    "image": "/imgs/img_11.jpg"
+  },
+  {
+    "id": 12,
+    "title": "그리앙스 토너",
+    "volume": "100ml",
+    "price": 21000,
+    "image": "/imgs/img_12.jpg"
+  },
+  {
+    "id": 13,
+    "title": "로코블란코 수분크림",
+    "volume": "50g",
+    "price": 26800,
+    "image": "/imgs/img_13.jpg"
+  },
+  {
+    "id": 14,
+    "title": "로코블란코 더블유 크림",
+    "volume": "50g",
+    "price": 32000,
+    "image": "/imgs/img_14.jpg"
+  },
+  {
+    "id": 15,
+    "title": "로코블란코 화이트닝 세럼",
+    "volume": "30ml",
+    "price": 32000,
+    "image": "/imgs/img_15.jpg"
+  },
+  {
+    "id": 16,
+    "title": "로코블란코 마스크 시트",
+    "volume": "10매",
+    "price": 20000,
+    "image": "/imgs/img_16.jpg"
+  }
+]

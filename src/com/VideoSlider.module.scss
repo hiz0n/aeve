@@ -1,0 +1,59 @@
+@use "../assets/scss/var" as v;
+@use "../assets/scss/mixin" as m;
+
+.videoslider {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  // background-color: black;
+  overflow-y: hidden;
+  top: 0;
+
+  .video {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .overlay {
+    z-index: 5;
+    position: absolute;
+    inset: 0;
+    @include m.flex-column-center;
+    color: white;
+    backdrop-filter: blur(1.1px);
+    opacity: 0;
+    animation: fadeUp 1s ease-out forwards 0.3s;
+
+    .title {
+      font-size: clamp(22px, 4vw, 60px);
+      text-shadow: v.$shadow-hard;
+      letter-spacing: 0.4px;
+      line-height: 1.2;
+      font-family: "Playfair Display", serif;
+      margin-block-end: 0;
+    }
+
+    .subtitle {
+      font-size: clamp(12px, 2vw, 24px);
+      line-height: 1.2;
+      text-shadow: v.$shadow-hard;
+      margin-block-end: 0;
+    }
+  }
+
+  @keyframes fadeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
